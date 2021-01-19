@@ -1,0 +1,24 @@
+syntax = "proto3";  // 指定语法格式，注意 proto3 不再支持 proto2 的 required 和 optional
+package  proto;      // 指定生成的programmer.pb.go 的包名，防止命名冲突
+
+// service 定义开放调用的服务
+service  ProgrammerService {
+// rpc 定义服务内的 GetProgrammerInfo 远程调用
+  rpc  GetProgrammerInfo (Request) returns (Response) {
+  }
+}
+// message 对应生成代码的 struct
+// 定义客户端请求的数据格式
+
+message  Request {
+// [修饰符] 类型 字段名 = 标识符;
+  string  name = 1;
+}
+
+// 定义服务端响应的数据格式
+message  Response {
+  int32  uid = 1;
+  string  username = 2;
+  string  job = 3;
+  repeated  string  goodAt = 4;  // repeated 修饰符表示字段是可变数组，即 slice 类型
+}

@@ -1,0 +1,10 @@
+Hello Go:0
+i love go
+Hello Go:1
+i love go
+Hello Go:2
+i love go
+Hello Go:3
+i love go
+Hello Go:4
+i love go

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <languages>
+  <Version>2</Version>
+  <language>
+   <name>JAVA</name>
+   <Site>https://www.java.com/</Site>
+  </language>
+  <language>
+   <name>Go</name>
+   <Site>https://golang.org/</Site>
+  </language>
+ </languages>

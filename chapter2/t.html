@@ -1,0 +1,15 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>tmpl test</title></head><body>
+<h1>测试嵌套template语法</h1>
+<hr>
+{{template "ul.html"}}
+<hr>
+{{template "ol.html"}}</body></html>
+{{ define "ol.html"}}<h1>这是ol.html</h1><ol>
+    <li>I love Go</li>
+    <li>I love java</li>
+    <li>I love c</li></ol>
+{{end}}
