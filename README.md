@@ -3,6 +3,9 @@
 #### （2）本书代码采用go1.5.3版本编写。
 #### （3）所有的代码都是经过反复测试过，精益求精！
 #### （4）欢迎读者购买纸质图书，进行更加系统地学习，快速向顶尖高手迈进！
+#### 天猫购买链接：https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-15061515147.246.52f12f9d2W7sdw&id=642352620644&rn=8a465247c8883bc1e0f433cefe5388ec&abbucket=15
+#### 京东购买链接：https://item.jd.com/13200972.html
+#### 当当购买链接：http://product.dangdang.com/29225055.html
 # 《Go Web编程实战派从入门到精通》介绍
 
 ![Go Web编程实战派从入门到精通](./goweb.jpeg)
@@ -63,11 +66,8 @@
 #### 10.测试工程师；
 #### 11.DevOps运维人员；
 #### 12.Web中高级开发人员。
-## 3.书籍购买
-#### 天猫购买链接：https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-15061515147.246.52f12f9d2W7sdw&id=642352620644&rn=8a465247c8883bc1e0f433cefe5388ec&abbucket=15
-#### 京东购买链接：https://item.jd.com/13200972.html
-#### 当当购买链接：http://product.dangdang.com/29225055.html
-## 4.技术交流
+
+## 3.技术交流
 假如读者在阅读本书的过程中有任何疑问，请用手机微信扫描下方二维码，
 
 ![源码大数据](./codebigdata.jpg)
