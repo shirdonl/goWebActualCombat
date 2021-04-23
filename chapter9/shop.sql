@@ -1,17 +1,5 @@
 /*
- Navicat Premium Data Transfer
-
- Source Server         : localhost
- Source Server Type    : MySQL
- Source Server Version : 50731
- Source Host           : localhost:3306
- Source Schema         : shop
-
- Target Server Type    : MySQL
- Target Server Version : 50731
- File Encoding         : 65001
-
- Date: 19/01/2021 15:05:14
+ LeastMall SQL
 */
 
 SET NAMES utf8mb4;
@@ -517,7 +505,7 @@ CREATE TABLE `user` (
 -- ----------------------------
 BEGIN;
 INSERT INTO `user` VALUES (1, '13888888888', 'e10adc3949ba59abbe56e057f20f883e', 0, '', 'admin@qq.com', 1);
-INSERT INTO `user` VALUES (2, '18324185529', 'e10adc3949ba59abbe56e057f20f883e', 0, '127.0.0.1', '', 0);
+INSERT INTO `user` VALUES (2, '18389999993', 'e10adc3949ba59abbe56e057f20f883e', 0, '127.0.0.1', '', 0);
 COMMIT;
 
 -- ----------------------------
@@ -539,9 +527,9 @@ CREATE TABLE `user_sms` (
 -- Records of user_sms
 -- ----------------------------
 BEGIN;
-INSERT INTO `user_sms` VALUES (1, '127.0.0.1', '18324185529', 1, '20201102', 1604288606, 'e178c966721a75236355d935ac3dd9ff');
-INSERT INTO `user_sms` VALUES (2, '127.0.0.1', '13882244371', 1, '20201119', 1605759728, '200f0a43fbc9c0ae40f26432269cae91');
-INSERT INTO `user_sms` VALUES (3, '127.0.0.1', '13889999999', 1, '20201119', 1605759900, '5abc5dca4b31c1cfe222693ee1c5bd1c');
+INSERT INTO `user_sms` VALUES (1, '127.0.0.1', '18389999993', 1, '20201102', 1604288606, 'e178c966721a75236355d935ac3dd9ff');
+INSERT INTO `user_sms` VALUES (2, '127.0.0.1', '18389999991', 1, '20201119', 1605759728, '200f0a43fbc9c0ae40f26432269cae91');
+INSERT INTO `user_sms` VALUES (3, '127.0.0.1', '18389999992', 1, '20201119', 1605759900, '5abc5dca4b31c1cfe222693ee1c5bd1c');
 COMMIT;
 
 SET FOREIGN_KEY_CHECKS = 1;
