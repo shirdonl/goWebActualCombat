@@ -33,7 +33,7 @@ func sayHello(w http.ResponseWriter, r *http.Request) {
 	loveGo := func() (string) {
 		return "欢迎一起学习《Go Web编程实战派从入门到精通》"
 	}
-	// 采用链式操作在Parse之前调用Funcs添加自定义的loveGo函数
+	// 采用链式操作在Parse()方法之前调用Funcs添加自定义的loveGo函数
 	tmpl1, err := template.New("funcs").Funcs(template.FuncMap{"loveGo": loveGo}).Parse(string(htmlByte))
 	if err != nil {
 		fmt.Println("create template failed, err:", err)

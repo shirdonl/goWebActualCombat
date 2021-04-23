@@ -18,9 +18,9 @@ import (
 )
 
 //const clientID = "<your client id>"
-const clientID = "0218d29d446601da5c02"
+const clientID = "7c5fbbb0074c9677992c"
 //const clientSecret = "<your client secret>"
-const clientSecret = "737b2f1dfae0babfde97a17bff936c88b9e96849"
+const clientSecret = "d80caa1c5bf3993bdc21fa2ec0b063b5bb17277b"
 
 func hello(w http.ResponseWriter, r *http.Request) {
 	if r.Method == "GET" {
