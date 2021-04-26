@@ -8,7 +8,7 @@
 #### 天猫购买链接：https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-15061515147.246.52f12f9d2W7sdw&id=642352620644&rn=8a465247c8883bc1e0f433cefe5388ec&abbucket=15
 #### 京东购买链接：https://item.jd.com/13200972.html
 #### 当当购买链接：http://product.dangdang.com/29225055.html
-## 拒绝纯理论，直接实战！实战！实战！干货如下：
+# 拒绝纯理论，直接实战！实战！实战！干货如下：
 #### 系统学习Go语言基础知识；
 #### 掌握HTTP基本原理；
 #### 掌握Go Web 底层原理；
