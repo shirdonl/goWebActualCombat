@@ -1,6 +1,6 @@
 #  🔥🔥Go语言这么火，不学Go语言，你就Out了！一起学习挑战高薪！！
 ####  先看看拉钩上Go语言薪资，你心动吗？心动就一起学习Go语言吧～
-![lagou](./gaoxin.png)
+![lagou](pics/gaoxin.png)
 #  源码说明
 #### （1）作者历时1年多编写的代码免费开源啦！
 #### （2）代码采用目前go最新版本编写。
@@ -9,9 +9,9 @@
 #### （5）配套图书内容丰富，全书536页！零基础入门，循序渐进，实现快速从菜鸟向实战派高手迈进！
 #### （6）欢迎购买纸质图书，进行更加系统地学习，快速从小白向顶尖高手迈进，购买链接如下：
 #### 当当（🔥🔥🔥🔥🔥🔥抢购中，太火了，货已到位......）升至新书榜🔥🔥🔥26位！！：http://product.dangdang.com/29225055.html
-![当当](./dangdang.png)
+![当当](pics/dangdang2.png)
 #### 京东（🔥🔥🔥🔥🔥🔥满100减50抢购中......）刚刚有货就升至总榜🔥🔥🔥26位！...：https://item.jd.com/13200972.html
-![jingdong](./jingdong2.png)
+![jingdong](pics/jingdong2.png)
 # 拒绝纯理论，直接实战！实战！实战！干货如下：
 #### 系统学习Go语言基础知识；
 #### 掌握HTTP基本原理；
@@ -38,11 +38,11 @@
 #### 掌握Docker Compose实战部署方法。
 # 《Go Web编程实战派从入门到精通》介绍
 
-![Go Web编程实战派从入门到精通](./goweb.jpeg)
-![简介](./jianjie.jpeg)
-![内容](./goweb2.jpeg)
-![内容](./goweb3.jpeg)
-![目录](./gowebcontent.jpeg)
+![Go Web编程实战派从入门到精通](pics/goweb.jpeg)
+![简介](pics/jianjie.jpeg)
+![内容](pics/goweb2.jpeg)
+![内容](pics/goweb3.jpeg)
+![目录](pics/gowebcontent.jpeg)
 ## 1.本书特色
 本书聚焦Go Web开发领域，对Go Web知识进行全面深入地讲解。本书有如下特色：
 #### （1）一线技术，突出实战；
@@ -103,7 +103,7 @@
 ## 3.技术交流
 假如读者在阅读本书的过程中有任何疑问，请用手机微信扫描下方二维码，
 
-![源码大数据](./codebigdata.jpg)
+![源码大数据](pics/codebigdata.jpg)
 
 关注“源码大数据”公众号，输入读者遇到的问题，作者会第一时间与读者进行交流回复。
 
