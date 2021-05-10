@@ -14,7 +14,7 @@ func main() {
 	var a interface{} = func(a int) string {
 		return fmt.Sprintf("d:%d", a)
 	}
-	switch b := a.(type) { // 局部变量v是类型转换后的结果
+	switch b := a.(type) { // 局部变量b是类型转换后的结果
 	case nil:
 		println("nil")
 	case *int:
