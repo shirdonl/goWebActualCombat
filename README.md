@@ -11,7 +11,7 @@
 #### 当当（🔥🔥🔥🔥🔥🔥 5折抢购中......）：http://product.dangdang.com/29225055.html
 
 #### 京东（🔥🔥🔥🔥🔥🔥 满减+活动抢购中......）：https://item.jd.com/13200972.html
-![jingdong](pics/jingdong3.png)
+![jingdong](pics/jingdong5.png)
 # 拒绝纯理论，直接实战！实战！实战！干货如下：
 #### 系统学习Go语言基础知识；
 #### 掌握HTTP基本原理；
