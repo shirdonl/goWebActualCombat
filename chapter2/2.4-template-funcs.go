@@ -15,11 +15,11 @@ import (
 	"net/http"
 )
 
-func Welcome() string { //没参数
+func Welcome() string { //无参数函数
 	return "Welcome"
 }
 
-func Doing(name string) string { //有参数
+func Doing(name string) string { //有参数函数
 	return name + ", Learning Go Web template "
 }
 
@@ -30,22 +30,23 @@ func sayHello(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 	// 自定义一个匿名模板函数
-	loveGo := func() (string) {
-		return "欢迎一起学习《Go Web编程实战派从入门到精通》"
+	loveGo := func() string {
+		return "欢迎一起学习《Go Web编程实战派——从入门到精通》"
 	}
-	// 采用链式操作在Parse()方法之前调用Funcs添加自定义的loveGo函数
+	// 链式操作在Parse()方法之前调用Funcs()函数，用来添加自定义的loveGo函数
 	tmpl1, err := template.New("funcs").Funcs(template.FuncMap{"loveGo": loveGo}).Parse(string(htmlByte))
 	if err != nil {
 		fmt.Println("create template failed, err:", err)
 		return
 	}
 	funcMap := template.FuncMap{
-		//在FuncMap中声明相应要使用的函数，然后就能够在template字符串中使用该函数
+		//在FuncMap中声明要使用的函数，然后就能够在模板的字符串中使用该函数
 		"Welcome": Welcome,
 		"Doing":   Doing,
 	}
 	name := "Shirdon"
-	tmpl2, err := template.New("test").Funcs(funcMap).Parse("{{Welcome}}\n{{Doing .}}\n")
+	tmpl2, err := template.New("test").Funcs(funcMap).
+		Parse("{{Welcome}}\n{{Doing .}}\n")
 	if err != nil {
 		panic(err)
 	}
@@ -58,5 +59,4 @@ func sayHello(w http.ResponseWriter, r *http.Request) {
 func main() {
 	http.HandleFunc("/", sayHello)
 	http.ListenAndServe(":8087", nil)
-
 }
