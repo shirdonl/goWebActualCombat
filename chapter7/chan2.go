@@ -22,9 +22,15 @@ func Sum(s []int, ch chan int) {
 
 func main() {
 	s := []int{6, 7, 8, -9, 1, 8}
-	ch := make(chan int)
+	ch := make(chan int, 6)
+
 	go Sum(s[:len(s)/2], ch)
+	a := <-ch
 	go Sum(s[len(s)/2:], ch)
-	a, b := <-ch, <-ch // 从通道 ch 中接收
+	b := <-ch
+
+	//fmt.Println(<-ch)
+	//fmt.Println(s[:len(s)/2])
+	//a, b := <-ch, <-ch // 从通道 ch 中接收
 	fmt.Println(a, b, a+b)
 }
