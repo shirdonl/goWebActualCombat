@@ -13,7 +13,7 @@
 #### 京东（🔥🔥🔥🔥🔥🔥 活动抢购中......）：https://item.jd.com/13200972.html
 #### 天猫（🔥🔥🔥🔥🔥🔥 活动抢购中......）：https://detail.tmall.com/item.htm?id=643246918641
 
-![jingdong](pics/jingdong7.png)
+![jingdong](pics/dangdang5.png)
 # 拒绝纯理论，直接实战！实战！实战！干货如下：
 #### 系统学习Go语言基础知识；
 #### 掌握HTTP基本原理；
